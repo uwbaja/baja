@@ -52,7 +52,7 @@ header nav a:hover {
 /* --------------- Body --------------- */
 
 .banner {
-	background: url('http://placehold.it/1024x650') no-repeat;/*http://img27.imageshack.us/img27/5728/jpmountain2x.jpg*/
+	background: url('http://placehold.it/1024x650') no-repeat center;/*http://img27.imageshack.us/img27/5728/jpmountain2x.jpg*/
 	display: block;
 	width: 100%;
 	height: 750px;
