@@ -147,6 +147,7 @@ dd {
     -o-background-size: cover;
     background-size: cover;
     color: white;
+	min-width: 1020px;
 }
 
 .banner-container {
