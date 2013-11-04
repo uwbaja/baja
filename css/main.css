@@ -28,7 +28,7 @@ header .logo {
 }
 
 header .logo-link {
-	float: right;
+	float: left;
 }
 
 header nav {
