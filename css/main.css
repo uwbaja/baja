@@ -122,8 +122,13 @@ dd {
 	padding-left:50px;
 }
 
+.img-grid {
+	margin-top: 1em;
+}
+
 .img-grid .sponsor-icon {
 	display: inline-block;
+	float:left;
 	width: 200px;
 	height: 200px;
 	border: 5px solid #ccc;
@@ -131,9 +136,28 @@ dd {
 	background-color: white;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin-right: 25px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin: 10px 25px 0px 0px;
+}
+
+/* --------------- Two column layout --------------- */
+
+.clear {
+	clear:both;
+}
+
+.content-top, .content-middle, .content-bottom {
+	padding-top:1.5em;
+}
+
+.column-left {
+	width: 45%;
+	float:left;
+}
+
+.column-right {
+	width: 50%;
+	float:left;
+	padding-left:0.5em;
 }
 
 /* --------------- Home --------------- */
@@ -246,9 +270,13 @@ dd {
 	vertical-align:middle;
 }
 
-/* --------------- Two column layout --------------- */
+/* --------------- Sponsors --------------- */
 
-.content-left, .content-right {
-	float:left;
-	padding:1em 0.5em;
+.sponsors .column-left {
+	width:50%;
+}
+
+.sponsors .column-right {
+	width:45%;
+	padding-left:5%;
 }
