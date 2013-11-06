@@ -191,10 +191,6 @@ dd {
 	clear:both;
 }
 
-.content-bottom{
-	margin-top:1.5em;
-}
-
 .content-bottom h3:first-child {
 	margin-top: 0em;
 }
@@ -203,18 +199,38 @@ dd {
 	margin-top: 0em;
 }
 
+.coontent-top {
+	margin-top: 1.5em;
+}
+
+.content-bottom {
+	margin-top: 1.5em;
+}
+
 .column-left {
 	margin-right: 50%;
-	min-width: 20em;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .column-right {
 	float:right;
 	width: 50%;
-	min-width: 20em;
 	padding-left: 2.5em;
-	margin-bottom: 1.5em;
+}
+
+@media (max-width: 40em) {
+
+	.column-left {
+		margin-right:0 !important;
+	}
+
+	.column-right {
+		float:none  !important;
+		width: 100%  !important;
+		margin-bottom: 1.5em  !important;
+		padding-left:0  !important;
+	}
+
 }
 
 /* --------------- Image slider --------------- */
