@@ -23,7 +23,6 @@ a:hover {
 /* --------------- Header --------------- */
 
 header {
-	height: 50px;
 	border-bottom: 3px solid #FFD801;
 	background-color: black;
 	color: white;
@@ -31,6 +30,7 @@ header {
 
 header .logo {
 	padding: 10px 10px;
+	height: 27px;
 }
 
 header .logo-link {
@@ -60,7 +60,6 @@ header nav a {
 	height: 16px;
 	padding: 17px 0px;
 	font-weight: bold;
-	border-bottom: 3px solid #FFD801;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -71,13 +70,6 @@ header nav a:hover {
 }
 
 /* --------------- Template --------------- */
-
-.content {
-	display: block;
-	width: 1024px;
-	margin: auto;
-	margin-top: 10px;
-}
 
 h1, h2, h3, h4 {
 	font-weight: bold;
@@ -90,49 +82,45 @@ section {
 h1 {
 	margin-top: 1.5em;
 	font-size: 4em;
-	line-height: 1;
+	line-height: 1.3;
 }
 
 h2 {
 	margin-top: 1.5em;
 	font-size: 3em;
-	line-height: 1;
-}
-
-.content-top h1, .content-top h2 {
-	margin-top: 0em;
+	line-height: 1.3;
 }
 
 h3 {
 	margin-top: 1.2em;
 	font-size: 2em;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 h4 {
 	margin-top: 1em;
 	font-size: 1.5em;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 p {
 	font-size: 1em;
-	margin-top: 0.5em;
-}
-
-.content table {
-	margin-top: 0.5em;
 }
 
 dt {
 	display:inline-block;
 	font-weight: bold;
-	margin-top: 0.5em;
+}
+
+p, .content table, dt {
+	margin-top: 0.6em;
 }
 
 dd {
 	display: block;
 }
+
+/* --------------- Image grid --------------- */
 
 .img-grid {
 	margin-top: 1em;
@@ -151,99 +139,35 @@ dd {
 	margin: 10px 25px 0px 0px;
 }
 
-/* --------------- Two column layout --------------- */
-
-.clear {
-	clear:both;
-}
-
-.content-bottom{
-	margin-top:1.5em;
-}
-
-.column-left {
-	width: 45%;
-	float:left;
-}
-
-.column-right {
-	width: 50%;
-	float:left;
-	padding-left:5%;
-}
-
-/* --------------- Home --------------- */
-
-.banner {
-	background: url('../img/bg7.jpg') no-repeat center;/*http://img27.imageshack.us/img27/5728/jpmountain2x.jpg*/
-	display: block;
-	width: 100%;
-	height: 700px;
-	opacity: 80%;
-	border-bottom: 3px solid #FFD801;
-	webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-	min-width: 1020px;
-}
-
-.banner-container {
-	display: inline-block;
-	margin: auto;
-	width: 100%;
-	min-height: 100px;
-	margin-top: 120px;
-	background-color:rgba(0,0,0,0.6);
-	padding: 20px 0;
-}
-
-.banner-content {
-	display: block;
-	margin: auto;
-	width: 1020px;
-}
-
-.banner-video {
-	display: inline-block;
-	width: 500px;
-	margin-left: 20px;
-}
-
-.banner-text {
-	display: inline-block;
-	width: 480px;
-	height: inherit;
-	vertical-align: top;
-}
-
-.banner h1 {
-	padding-bottom: 10px;
-	font-size: 40px;
-	font-weight: bold;
-	margin-top: 1em;
-}
-
-.banner-description {
-	font-size: 18px;
-}
+/* --------------- Main layout blocks --------------- */
 
 .container {
 	display: block;
-	width: 1024px;
+	width: 75%;
 	margin: auto;
+	z-index:1;
+}
+
+.content {
+	display: block;
+	width: 75%;
+	margin: auto;
+	z-index:0;
+	padding-bottom: 1.5em;
 }
 
 .main-footer {
 	display: block;
 	margin: auto;
-	width: 1024px;
-	margin-top: 20px;
+	width: 75%;
+	margin-top: -1px;
 	padding-top: 20px;
+	z-index:0;
 	padding-bottom: 40px;
 	border-top: 1px solid #ccc;
 }
+
+/* --------------- Footer --------------- */
 
 .credit {
 	display: block;
@@ -261,63 +185,64 @@ dd {
 	width: 300px;
 }
 
-/* --------------- About --------------- */
+/* --------------- Two column layout --------------- */
 
-.imgslider { 
+.clear {
+	clear:both;
+}
+
+.content-bottom{
+	margin-top:1.5em;
+}
+
+.content-bottom h3:first-child {
+	margin-top: 0em;
+}
+
+.content-top h1, .content-top h2 {
+	margin-top: 0em;
+}
+
+.column-left {
+	margin-right: 50%;
+	min-width: 20em;
+	overflow:hidden;
+}
+
+.column-right {
+	float:right;
+	width: 50%;
+	min-width: 20em;
+	padding-left: 2.5em;
+	margin-bottom: 1.5em;
+}
+
+/* --------------- Image slider --------------- */
+
+.imgslider {
 	position: relative; 
 	overflow: auto;
+	width: 100% !important;
 }
 	
-.imgslider li.slide { 
+.imgslider .slide { 
 	list-style: none;
 	float: left;
+}
+
+.imgslider .slide h3 { 
+	magin-top:0px;
 }
 
 .imgslider .slide-image {
 	margin-top: 0.5em;
 	overflow:hidden;
+	background-position: center center;
+	background-size:100%;
 }
 
-.imgslider .slide-image img {
-	width:100%;
-}
-
-.about .imgslider .slide-image {
-	height: 270px;
-}
-
-.about .column-left {
-	width: 40%
-}
-
-/* --------------- Events --------------- */
-
-.events-table {
-	border: 1px solid white;
-}
-
-.events-table td, .events-table th {
-	padding: 0.5em 0.3em;
-	border: 1px solid white;
-}
-
-.events-table th {
-	font-weight: bold;
-}
-
-.events-table td:first-child {
-	font-weight: bold;
-	text-align: center;
-	vertical-align:middle;
-}
-
-/* --------------- Sponsors --------------- */
-
-.sponsors .column-left {
-	width:50%;
-}
-
-.sponsors .column-right {
-	width:45%;
-	padding-left:5%;
+.imgslider .slide-description {
+	margin-top: 1em;
+	min-height: 15em;
+	padding-right: 1.5em;
 }

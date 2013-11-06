@@ -1,0 +1,13 @@
+/* --------------- About --------------- */
+
+.about .imgslider .slide-image {
+	height: 270px;
+}
+
+.about .column-left {
+	margin-right: 45%
+}
+
+.about .column-right {
+	width: 45%;
+}
