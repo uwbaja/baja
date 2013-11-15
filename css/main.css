@@ -255,6 +255,7 @@ dd {
 	overflow:hidden;
 	background-position: center center;
 	background-size:100%;
+	background-repeat: no-repeat;
 }
 
 .imgslider .slide-description {
