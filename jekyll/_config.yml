@@ -1,3 +1,4 @@
 name: Waterloo Baja SAE
 markdown: redcarpet
 pygments: true
+baseurl: Z:/public_html/jekyll/_site

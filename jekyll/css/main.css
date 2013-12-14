@@ -1,160 +1,265 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+html {
+	height: 100%;
 }
-
-html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+	line-height: 135%;
+	font-family: "Open Sans", sans-serif;
+	height: 100%;
+	background: black;
+	color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+a {
+	text-decoration: underline;
+	color: #FFD801;
 }
 
-.posts li {
-  line-height: 1.75em;
+a:hover {
+	text-decoration: none;
 }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+
+/* --------------- Header --------------- */
+
+header {
+	border-bottom: 3px solid #FFD801;
+	background-color: black;
+	color: white;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+header .logo {
+	padding: 10px 10px;
+	height: 27px;
 }
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
+header .logo-link {
+	float: left;
 }
 
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
+header nav {
+	float: right;
+	height: inherit;
 }
 
-.title a {
-  color: #a00;
+header nav ul {
+	height: inherit;
 }
 
-.title a:hover {
-  color: #000;
+header nav li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	background-color: black;
 }
 
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+header nav a {
+	display: block;
+	color: #FFD801;
+	font-size: 13px;
+	height: 18px;
+	padding: 17px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
-.header a.extra:hover {
-  color: #000;
+header nav a:hover {
+	background-color: white;
+	color: black;
 }
 
-.meta {
-  color: #aaa;
+/* --------------- Template --------------- */
+
+h1, h2, h3, h4 {
+	font-weight: bold;
 }
 
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
+section {
+	margin-top: 1em;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
+h1 {
+	margin-top: 1.5em;
+	font-size: 4em;
+	line-height: 1.3;
 }
 
-.footer .contact a {
-  color: #8085C1;
+h2 {
+	margin-top: 1.5em;
+	font-size: 3em;
+	line-height: 1.3;
 }
 
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
+h3 {
+	margin-top: 1.2em;
+	font-size: 2em;
+	line-height: 1.2;
 }
 
-.footer .rss img {
-  border: 0;
+h4 {
+	margin-top: 1em;
+	font-size: 1.5em;
+	line-height: 1.2;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+p {
+	font-size: 1em;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+dt {
+	display:inline-block;
+	font-weight: bold;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+p, .content table, dt {
+	margin-top: 0.6em;
 }
 
-.post pre code {
-  border: none;
+dd {
+	display: block;
 }
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+/* --------------- Image grid --------------- */
+
+.img-grid {
+	margin-top: 1em;
 }
 
-.post pre.terminal code {
-  background-color: #333;
+.img-grid .sponsor-icon {
+	display: inline-block;
+	float:left;
+	width: 200px;
+	height: 200px;
+	border: 5px solid #ccc;
+	background-size: 175px auto;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 10px 25px 0px 0px;
+}
+
+/* --------------- Main layout blocks --------------- */
+
+header {
+	display: block;
+	width: 75%;
+	margin: auto;
+	z-index:1;
+}
+
+.content {
+	display: block;
+	width: 75%;
+	margin: auto;
+	z-index:0;
+	padding-bottom: 1.5em;
+}
+
+.main-footer {
+	display: block;
+	margin: auto;
+	width: 75%;
+	margin-top: -1px;
+	padding-top: 20px;
+	z-index:0;
+	padding-bottom: 40px;
+	border-top: 1px solid #ccc;
+}
+
+/* --------------- Footer --------------- */
+
+.credit {
+	display: block;
+	color: white;
+	font-size: 10px;
+	padding-top: 10px;
+}
+
+.social {
+	float: right;
+}
+
+.address {
+	display: inline-block;
+	width: 300px;
+}
+
+/* --------------- Two column layout --------------- */
+
+.clear {
+	clear:both;
+}
+
+.content-bottom h3:first-child {
+	margin-top: 0em;
+}
+
+.content-top h1, .content-top h2 {
+	margin-top: 0em;
+}
+
+.coontent-top {
+	margin-top: 1.5em;
+}
+
+.content-bottom {
+	margin-top: 1.5em;
+}
+
+.column-left {
+	margin-right: 50%;
+	overflow:auto;
+}
+
+.column-right {
+	float:right;
+	width: 50%;
+	padding-left: 2.5em;
+}
+
+@media (max-width: 40em) {
+
+	.column-left {
+		margin-right:0 !important;
+	}
+
+	.column-right {
+		float:none  !important;
+		width: 100%  !important;
+		margin-bottom: 1.5em  !important;
+		padding-left:0  !important;
+	}
+
+}
+
+/* --------------- Image slider --------------- */
+
+.imgslider {
+	position: relative; 
+	overflow: auto;
+	width: 100% !important;
+}
+	
+.imgslider .slide { 
+	list-style: none;
+	float: left;
+}
+
+.imgslider .slide h3 { 
+	margin-top:0px;
+}
+
+.imgslider .slide-image {
+	margin-top: 0.5em;
+	overflow:hidden;
+	background-position: center center;
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+.imgslider .slide-description {
+	margin-top: 1em;
+	min-height: 15em;
+	padding-right: 1.5em;
 }

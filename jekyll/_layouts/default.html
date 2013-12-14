@@ -7,37 +7,67 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/{{ site.baseurl }}/css/syntax.css">
 
+		<!-- CSS reset -->
+		<link rel="stylesheet" href="/{{ site.baseurl }}/css/reset.css">
+		
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/{{ site.baseurl }}/css/main.css">
+		
+		{% for css_name in page.extra_css %}
+			<link rel="stylesheet" href="/{{ site.baseurl }}/css/{{ css_name }}">
+		{% endfor %}
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="https://uwaterloo.ca/favicon.ico" type="image/vnd.microsoft.icon" />
+		
+		<!-- Font -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+		
+		<!-- Sitewide JS -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		
+		<!-- Page JS -->
+		{% for js_name in page.extra_js %}
+			<script src="/{{ site.baseurl }}/js/{{ js_name }}"></script>
+		{% endfor %}
 
     </head>
     <body>
-
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+			<header>
+				<a href="/{{ site.baseurl }}" class="logo-link"><img src="img/logo.png" class="logo" /></a>
+				<nav>
+					<ul>
+						<li><a href="/{{ site.baseurl }}/index.html">Home</a></li>
+						<li><a href="/{{ site.baseurl }}/about.html">About</a></li>
+						<li><a href="/{{ site.baseurl }}/events.html">Events</a></li>
+						<li><a href="/{{ site.baseurl }}/sponsors.html">Sponsors</a></li>
+						<li><a href="/{{ site.baseurl }}/contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</header>
+			
+			<section class="content {{ page.id }}">
+				{{ content }}
+			</section>
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+			<footer class="main-footer">
+				<section class="address">
+					Engineering 5, Room 1012<br>
+					Student Design Centre<br>
+					200 University Avenue West<br>
+					Waterloo, ON, N2L 3G1 Canada
+				</section>
+				<section class="social">
+					<a href="http://facebook.com/UWBajaSAE"><img src="/{{ site.baseurl }}/img/icons/facebook.png" /></a>
+				</section>
+				<section class="credit">
+					Website designed by <a href="http://twitter.com/wataweb" target="_blank">Adrian Carolli</a>
+				</section>
+			</footer>
         </div>
 
     </body>

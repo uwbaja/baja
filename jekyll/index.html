@@ -1,13 +1,28 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: University of Waterloo - Waterloo Baja SAE Engineering
+
+id: home
+
+extra_css:
+  - home.css
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+	<div class="banner">
+		<div class="banner-container">
+			<div class="banner-content">
+				<div class="banner-text">
+					<h1>UW Baja SAE Team</h1>
+					<p class="banner-description">
+						The University of Waterloo Baja team is an educational engineering project embarked upon by dedicated students from all disciplines. Since 1985, the UW Baja SAE team design and build off-road vehicles to race in SAE sanctioned  events.
+					</p>
+				</div>
+				<div class="banner-video">
+					<iframe src="http://player.vimeo.com/video/78261959?title=0&amp;byline=0&amp;portrait=0&amp;color=ffd801&amp;autoplay=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</iframe>
+				</div>
+			</div>
+		</div>
+	</div>	
 </div>
