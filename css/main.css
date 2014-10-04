@@ -236,17 +236,17 @@ dd {
 /* --------------- Image slider --------------- */
 
 .imgslider {
-	position: relative; 
+	position: relative;
 	overflow: auto;
 	width: 100% !important;
 }
-	
-.imgslider .slide { 
+
+.imgslider .slide {
 	list-style: none;
 	float: left;
 }
 
-.imgslider .slide h3 { 
+.imgslider .slide h3 {
 	margin-top:0px;
 }
 
@@ -262,4 +262,9 @@ dd {
 	margin-top: 1em;
 	min-height: 15em;
 	padding-right: 1.5em;
+}
+
+/* -------------- Stream --------------------- */
+.stream > .content-bottom {
+	text-align: center;
 }
