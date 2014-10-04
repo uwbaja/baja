@@ -1,0 +1,2762 @@
+.docs-icon{
+	direction:ltr;
+	text-align:left;
+	height:21px;
+	overflow:hidden;
+	vertical-align:middle;
+	width:21px
+}
+
+.form-container .docs-icon-img:before{
+	content:url("//ssl.gstatic.com/docs/common/jfk_sprite100.png")
+}
+
+.form-container .docs-icon-img{
+	*background:url("//ssl.gstatic.com/docs/common/jfk_sprite100.png")
+}
+
+.form-container .docs-icon-img-legacy{
+	background:url("//ssl.gstatic.com/docs/common/jfk_sprite100.png")
+}
+
+.form-container .docs-icon-img-container{
+	height:3066px;
+	position:absolute;
+	width:42px
+}
+
+.form-container .goog-color-menu-button-indicator .docs-icon{
+	height:19px
+}
+
+.form-container .goog-menuitem-icon .docs-icon-img-container{
+	opacity:.55
+}
+
+.form-container .goog-menuitem-icon .docs-icon-document,.goog-menuitem-icon .docs-icon-punch,.goog-menuitem-icon .docs-icon-presentation,.goog-menuitem-icon .docs-icon-spreadsheet,.goog-menuitem-icon .docs-icon-form,.goog-menuitem-icon .docs-icon-drawing,.goog-menuitem-icon .docs-icon-script{
+	opacity:1
+}
+
+.form-container .docs-icon-save{
+	left:-21px;
+	top:-903px
+}
+
+.form-container .docs-icon-print{
+	left:-21px;
+	top:-1407px
+}
+
+.form-container .docs-icon-undo,.docs-icon-redo-rtl{
+	left:0;
+	top:-1638px
+}
+
+.form-container .docs-icon-redo,.docs-icon-undo-rtl{
+	left:0;
+	top:-2835px
+}
+
+.form-container .docs-icon-copy{
+	left:-21px;
+	top:-1239px
+}
+
+.form-container .docs-icon-cut{
+	left:0;
+	top:-2793px
+}
+
+.form-container .docs-icon-paste{
+	left:-21px;
+	top:-2499px
+}
+
+.form-container .docs-icon-document{
+	left:0;
+	top:-2142px
+}
+
+.form-container .docs-icon-presentation{
+	left:0;
+	top:-210px
+}
+
+.form-container .docs-icon-punch{
+	left:0;
+	top:-210px
+}
+
+.form-container .docs-icon-spreadsheet{
+	left:0;
+	top:-1239px
+}
+
+.form-container .docs-icon-form{
+	left:0;
+	top:-2289px
+}
+
+.form-container .docs-icon-drawing{
+	left:0;
+	top:-819px
+}
+
+.form-container .docs-icon-drawing-black{
+	left:-21px;
+	top:-3024px
+}
+
+.form-container .docs-icon-script{
+	left:-21px;
+	top:-2184px
+}
+
+.form-container .docs-icon-insert-script{
+	left:0;
+	top:-1134px
+}
+
+.form-container .docs-icon-gadget{
+	left:-21px;
+	top:-2478px
+}
+
+.form-container .docs-icon-image{
+	left:0;
+	top:-1512px
+}
+
+.form-container .docs-icon-clipboard{
+	left:0;
+	top:-735px
+}
+
+.form-container .docs-icon-bold{
+	left:0;
+	top:-567px
+}
+
+.form-container .docs-icon-italic{
+	left:0;
+	top:-1050px
+}
+
+.form-container .docs-icon-text-color{
+	left:0;
+	top:-1974px
+}
+
+.form-container .docs-icon-align-left{
+	left:-21px;
+	top:-1575px
+}
+
+.form-container .docs-icon-align-center{
+	left:0;
+	top:-168px
+}
+
+.form-container .docs-icon-align-right{
+	left:0;
+	top:-2856px
+}
+
+.form-container .docs-icon-align-justify{
+	left:0;
+	top:-1470px
+}
+
+.form-container .docs-icon-valign-top{
+	left:-21px;
+	top:-819px
+}
+
+.form-container .docs-icon-valign-middle{
+	left:0;
+	top:-924px
+}
+
+.form-container .docs-icon-valign-bottom{
+	left:0;
+	top:-2121px
+}
+
+.form-container .docs-icon-list-number{
+	left:0;
+	top:-651px
+}
+
+.form-container .docs-icon-list-bullet{
+	left:-21px;
+	top:-1617px
+}
+
+.form-container .docs-icon-indent{
+	left:-21px;
+	top:-840px
+}
+
+.form-container .docs-icon-outdent{
+	left:-21px;
+	top:-2688px
+}
+
+.form-container .docs-icon-line-spacing{
+	left:-21px;
+	top:-2772px
+}
+
+.form-container .docs-icon-underline{
+	left:0;
+	top:-1617px
+}
+
+.form-container .docs-icon-text-bgcolor{
+	left:-21px;
+	top:-3045px
+}
+
+.form-container .docs-icon-textbox{
+	left:0;
+	top:-1722px
+}
+
+.form-container .docs-icon-shapes{
+	left:-21px;
+	top:-1953px
+}
+
+.form-container .docs-icon-line-width{
+	left:0;
+	top:-2310px
+}
+
+.form-container .docs-icon-add-trendline{
+	left:-21px;
+	top:-2730px
+}
+
+.form-container .docs-icon-next{
+	left:0;
+	top:-1995px
+}
+
+.form-container .docs-icon-previous{
+	left:0;
+	top:-2268px
+}
+
+.form-container .docs-icon-no-color{
+	left:-21px;
+	top:-1806px
+}
+
+.form-container .docs-icon-fill-color{
+	left:-21px;
+	top:-1365px
+}
+
+.form-container .docs-icon-line-color{
+	left:-21px;
+	top:-231px
+}
+
+.form-container .docs-icon-line-type{
+	left:-21px;
+	top:-1029px
+}
+
+.form-container .docs-icon-table{
+	left:0;
+	top:-1092px
+}
+
+.form-container .docs-icon-comment{
+	left:0;
+	top:-966px
+}
+
+.form-container .docs-icon-comment-blank{
+	left:0;
+	top:-756px
+}
+
+.form-container .docs-icon-comment-blank-highlighted{
+	left:0;
+	top:-2016px
+}
+
+.form-container .docs-icon-chart{
+	left:0;
+	top:-399px
+}
+
+.form-container .docs-icon-list-number-rtl{
+	left:-21px;
+	top:-2541px
+}
+
+.form-container .docs-icon-list-bullet-rtl{
+	left:0;
+	top:-945px
+}
+
+.form-container .docs-icon-indent-rtl{
+	left:0;
+	top:-504px
+}
+
+.form-container .docs-icon-outdent-rtl{
+	left:0;
+	top:-1659px
+}
+
+.form-container .docs-icon-line-spacing-rtl{
+	left:0;
+	top:-903px
+}
+
+.form-container .docs-icon-text-ltr{
+	left:-21px;
+	top:-1323px
+}
+
+.form-container .docs-icon-text-rtl{
+	left:0;
+	top:-3003px
+}
+
+.form-container .docs-icon-sheet-rtl{
+	left:0;
+	top:-1533px
+}
+
+.form-container .docs-icon-share{
+	left:0;
+	top:-189px
+}
+
+.form-container .docs-icon-subscript{
+	left:0;
+	top:-1701px
+}
+
+.form-container .docs-icon-superscript{
+	left:-21px;
+	top:-1932px
+}
+
+.form-container .docs-icon-strikethrough{
+	left:0;
+	top:-1365px
+}
+
+.form-container .docs-icon-clear-formatting{
+	left:-21px;
+	top:-2016px
+}
+
+.form-container .docs-icon-link{
+	left:0;
+	top:-42px
+}
+
+.form-container .docs-icon-special-character{
+	left:0;
+	top:-2961px
+}
+
+.form-container .docs-icon-close-white{
+	left:0;
+	top:-840px
+}
+
+.form-container .docs-icon-close-small{
+	left:0;
+	top:-483px
+}
+
+.form-container .docs-icon-paint-format{
+	left:-21px;
+	top:-2793px
+}
+
+.form-container .docs-icon-video{
+	left:0;
+	top:-2541px
+}
+
+.form-container .docs-icon-reload{
+	left:0;
+	top:-2709px
+}
+
+.form-container .docs-icon-reload-rtl{
+	left:0;
+	top:-462px
+}
+
+.form-container .docs-icon-insert-page-break{
+	left:0;
+	top:-2877px
+}
+
+.form-container .docs-icon-close{
+	left:-21px;
+	top:-798px
+}
+
+.form-container .docs-icon-check{
+	left:-21px;
+	top:-399px
+}
+
+.form-container .docs-icon-up{
+	left:-21px;
+	top:-735px
+}
+
+.form-container .docs-icon-down{
+	left:0;
+	top:-2457px
+}
+
+.form-container .docs-icon-add-page{
+	left:0;
+	top:-1260px
+}
+
+.form-container .docs-icon-email{
+	left:0;
+	top:-1680px
+}
+
+.form-container .docs-icon-insert-equation{
+	left:0;
+	top:-987px
+}
+
+.form-container .docs-icon-insert-horizontal-line{
+	left:-21px;
+	top:0
+}
+
+.form-container .docs-icon-tabstop-center{
+	left:-21px;
+	top:-1470px
+}
+
+.form-container .docs-icon-tabstop-center-bottom{
+	left:-21px;
+	top:-966px
+}
+
+.form-container .docs-icon-tabstop-left{
+	left:-21px;
+	top:-420px
+}
+
+.form-container .docs-icon-tabstop-right{
+	left:-21px;
+	top:-2415px
+}
+
+.form-container .docs-icon-border-all{
+	left:0;
+	top:-2688px
+}
+
+.form-container .docs-icon-border-right{
+	left:0;
+	top:-2940px
+}
+
+.form-container .docs-icon-border-left{
+	left:0;
+	top:-1596px
+}
+
+.form-container .docs-icon-border-top{
+	left:0;
+	top:-1176px
+}
+
+.form-container .docs-icon-border-bottom{
+	left:-21px;
+	top:-1764px
+}
+
+.form-container .docs-icon-border-outside{
+	left:-21px;
+	top:-2205px
+}
+
+.form-container .docs-icon-border-inside{
+	left:-21px;
+	top:-2982px
+}
+
+.form-container .docs-icon-border-none{
+	left:0;
+	top:-126px
+}
+
+.form-container .docs-icon-border-horizontal{
+	left:0;
+	top:-2331px
+}
+
+.form-container .docs-icon-border-vertical{
+	left:-21px;
+	top:-567px
+}
+
+.form-container .docs-icon-merge{
+	left:0;
+	top:-1008px
+}
+
+.form-container .docs-icon-wrap{
+	left:0;
+	top:-2205px
+}
+
+.form-container .docs-icon-autofilter{
+	left:-21px;
+	top:-504px
+}
+
+.form-container .docs-icon-autofilter-filled{
+	left:0;
+	top:-378px
+}
+
+.form-container .docs-icon-insert-function{
+	left:0;
+	top:-1344px
+}
+
+.form-container .docs-icon-insert-formula{
+	left:0;
+	top:-315px
+}
+
+.form-container .docs-icon-folder-shared{
+	left:0;
+	top:-1806px
+}
+
+.form-container .docs-icon-folder-outline{
+	left:0;
+	top:-1218px
+}
+
+.form-container .docs-icon-folder-outline-hover{
+	left:-21px;
+	top:-2289px
+}
+
+.form-container .docs-icon-folder-outline-pressed{
+	left:0;
+	top:-2247px
+}
+
+.form-container .docs-icon-folder-solid{
+	left:0;
+	top:-420px
+}
+
+.form-container .docs-icon-drive{
+	left:-21px;
+	top:-1701px
+}
+
+.form-container .docs-icon-drive-grey{
+	left:0;
+	top:-3024px
+}
+
+.form-container .docs-icon-drive-grey-hover{
+	left:-21px;
+	top:-2163px
+}
+
+.form-container .docs-icon-drive-grey-pressed{
+	left:0;
+	top:-1449px
+}
+
+.form-container .docs-icon-drive-hover{
+	left:0;
+	top:-2499px
+}
+
+.form-container .docs-icon-drive-pressed{
+	left:0;
+	top:-1428px
+}
+
+.form-container .docs-icon-drive-large{
+	left:0;
+	top:-2646px
+}
+
+.form-container .docs-icon-back{
+	left:-21px;
+	top:-1995px
+}
+
+.form-container .docs-icon-back-rtl{
+	left:0;
+	top:-2352px
+}
+
+.form-container .docs-icon-arrow-more{
+	left:0;
+	top:-2373px
+}
+
+.form-container .docs-icon-arrow-more-rtl{
+	left:0;
+	top:-441px
+}
+
+.form-container .docs-icon-search-this-document{
+	left:-21px;
+	top:-441px
+}
+
+.form-container .docs-icon-arrow-dropdown{
+	left:0;
+	top:-105px
+}
+
+.form-container .docs-icon-word-art{
+	left:-21px;
+	top:-1008px
+}
+
+.form-container .docs-icon-delete-x{
+	left:-21px;
+	top:-2100px
+}
+
+.form-container .docs-icon-settings{
+	left:0;
+	top:-1554px
+}
+
+.form-container .docs-icon-drive-large-wrapper{
+	width:42px;
+	height:42px
+}
+
+.form-container .docs-icon-plus{
+	left:-21px;
+	top:-336px
+}
+
+.form-container .docs-icon-plus-white{
+	left:-21px;
+	top:-1176px
+}
+
+.form-container .docs-icon-alert{
+	left:-21px;
+	top:-1449px
+}
+
+.form-container .docs-icon-trash{
+	left:-21px;
+	top:-2583px
+}
+
+.form-container .docs-icon-locked{
+	left:-21px;
+	top:-2436px
+}
+
+.form-container .docs-icon-unlocked{
+	left:-21px;
+	top:-525px
+}
+
+.form-container .docs-icon-add-fonts{
+	left:-21px;
+	top:-2856px
+}
+
+.form-container .docs-icon-enter-compact{
+	left:0;
+	top:-1155px
+}
+
+.form-container .docs-icon-exit-compact{
+	left:0;
+	top:-882px
+}
+
+.form-container .docs-icon-mode-edit{
+	left:0;
+	top:-2100px
+}
+
+.form-container .docs-icon-mode-view{
+	left:-21px;
+	top:-2625px
+}
+
+.form-container .docs-icon-chat{
+	left:0;
+	top:-1113px
+}
+
+.form-container .docs-icon-star{
+	left:0;
+	top:-2562px
+}
+
+.form-container .docs-icon-duplicate{
+	left:0;
+	top:-1407px
+}
+
+.form-container .docs-icon-file{
+	left:0;
+	top:-252px
+}
+
+.form-container .docs-icon-opacity{
+	left:0;
+	top:-2814px
+}
+
+.form-container .docs-icon-label-slant{
+	left:-21px;
+	top:-2457px
+}
+
+.form-container .docs-icon-point-size{
+	left:-21px;
+	top:-1155px
+}
+
+.form-container .docs-icon-question{
+	left:-21px;
+	top:-1050px
+}
+
+.form-container .docs-icon-vertical-gridlines{
+	left:-21px;
+	top:-84px
+}
+
+.form-container .docs-icon-left-axis{
+	left:0;
+	top:-2625px
+}
+
+.form-container .docs-icon-right-axis{
+	left:0;
+	top:-147px
+}
+
+.form-container .docs-icon-left-axis-gridlines{
+	left:0;
+	top:-861px
+}
+
+.form-container .docs-icon-right-axis-gridlines{
+	left:0;
+	top:-2583px
+}
+
+.form-container .docs-icon-reset{
+	left:0;
+	top:-714px
+}
+
+.form-container .docs-icon-drag-move{
+	left:-21px;
+	top:-1974px
+}
+
+.form-container .docs-icon-col-dragger{
+	left:-21px;
+	top:-147px
+}
+
+.form-container .docs-icon-chrome-store{
+	left:-21px;
+	top:-924px
+}
+
+.form-container .docs-icon-fit-area{
+	left:-21px;
+	top:-294px
+}
+
+.form-container .docs-icon-zoom-out{
+	left:0;
+	top:-588px
+}
+
+.form-container .docs-icon-zoom-tool{
+	left:-21px;
+	top:-651px
+}
+
+.form-container .docs-icon-download{
+	left:0;
+	top:-357px
+}
+
+.form-container .docs-icon-fusion-table{
+	left:-21px;
+	top:-1218px
+}
+
+.form-container .docs-icon-spreadsheet-sink{
+	left:0;
+	top:-2772px
+}
+
+.form-container .docs-icon-send-responses{
+	left:0;
+	top:0
+}
+
+.form-container .docs-icon-liveform{
+	left:0;
+	top:-630px
+}
+
+.form-container .docs-icon-ellipsis{
+	left:0;
+	top:-3045px
+}
+
+.form-container .docs-icon-html-preview{
+	left:0;
+	top:-1869px
+}
+
+.form-container .docs-icon-grid{
+	left:0;
+	top:-672px
+}
+
+.form-container .docs-icon-add-animation{
+	left:0;
+	top:-1911px
+}
+
+.form-container .docs-icon-playhead{
+	left:-21px;
+	top:-2352px
+}
+
+.form-container .docs-icon-playhead-rtl{
+	left:0;
+	top:-1197px
+}
+
+.form-container .docs-icon-unsupported{
+	left:0;
+	top:-2394px
+}
+
+.form-container .docs-icon-calendar{
+	left:0;
+	top:-2520px
+}
+
+.form-container .docs-zippy-closed{
+	left:-21px;
+	top:-21px
+}
+
+.form-container .docs-zippy-open{
+	left:0;
+	top:-2163px
+}
+
+.form-container .docs-icon-bookmark{
+	left:-21px;
+	top:-2961px
+}
+
+.form-container .docs-icon-heading{
+	left:0;
+	top:-2751px
+}
+
+.form-container .docs-icon-file-blue{
+	left:0;
+	top:-777px
+}
+
+.form-container .docs-icon-web-result{
+	left:0;
+	top:-1281px
+}
+
+.form-container .docs-icon-mic{
+	left:-21px;
+	top:-2079px
+}
+
+.form-container .docs-icon-paragraph{
+	left:-21px;
+	top:-2037px
+}
+
+.form-container .docs-icon-bookmark-black{
+	left:-21px;
+	top:-1596px
+}
+
+.form-container .docs-icon-web-result-blue{
+	left:-21px;
+	top:-1092px
+}
+
+.form-container .docs-icon-popout{
+	left:0;
+	top:-2982px
+}
+
+.form-container .docs-icon-checkbox-type{
+	left:0;
+	top:-1827px
+}
+
+.form-container .docs-icon-dropdown-type{
+	left:-21px;
+	top:-588px
+}
+
+.form-container .docs-icon-grid-type{
+	left:-21px;
+	top:-2709px
+}
+
+.form-container .docs-icon-image-type{
+	left:0;
+	top:-1302px
+}
+
+.form-container .docs-icon-radio-type{
+	left:0;
+	top:-2478px
+}
+
+.form-container .docs-icon-scale-type{
+	left:0;
+	top:-1491px
+}
+
+.form-container .docs-icon-text-type{
+	left:0;
+	top:-1932px
+}
+
+.form-container .docs-icon-time-type{
+	left:0;
+	top:-2226px
+}
+
+.form-container .docs-icon-insert-text-block{
+	left:-21px;
+	top:-1890px
+}
+
+.form-container .docs-icon-accepting-responses-on{
+	left:-21px;
+	top:-2814px
+}
+
+.form-container .docs-icon-accepting-responses-off{
+	left:-21px;
+	top:-1260px
+}
+
+.form-container .docs-icon-decimal-increase{
+	left:0;
+	top:-2079px
+}
+
+.form-container .docs-icon-decimal-decrease{
+	left:-21px;
+	top:-315px
+}
+
+.form-container .docs-icon-page-left{
+	left:0;
+	top:-294px
+}
+
+.form-container .docs-icon-settings-white{
+	left:-21px;
+	top:-1428px
+}
+
+.form-container @media screen and (-webkit-device-pixel-ratio:2){
+.form-container 	.docs-icon-img{
+		content:url("//ssl.gstatic.com/docs/common/jfk_sprite_hdpi38.png")
+	}
+
+.form-container 	.docs-icon-img-container{
+		height:3087px;
+		position:absolute;
+		width:42px
+	}
+
+.form-container 	.docs-icon-save{
+		left:-21px;
+		top:-1911px
+	}
+
+.form-container 	.docs-icon-print{
+		left:0;
+		top:-1407px
+	}
+
+.form-container 	.docs-icon-undo,.docs-icon-redo-rtl{
+		left:0;
+		top:-1281px
+	}
+
+.form-container 	.docs-icon-redo,.docs-icon-undo-rtl{
+		left:0;
+		top:-2625px
+	}
+
+.form-container 	.docs-icon-copy{
+		left:-21px;
+		top:-2100px
+	}
+
+.form-container 	.docs-icon-cut{
+		left:0;
+		top:-2940px
+	}
+
+.form-container 	.docs-icon-paste{
+		left:0;
+		top:-2898px
+	}
+
+.form-container 	.docs-icon-document{
+		left:-21px;
+		top:-1071px
+	}
+
+.form-container 	.docs-icon-presentation{
+		left:0;
+		top:-609px
+	}
+
+.form-container 	.docs-icon-punch{
+		left:0;
+		top:-609px
+	}
+
+.form-container 	.docs-icon-spreadsheet{
+		left:0;
+		top:-2856px
+	}
+
+.form-container 	.docs-icon-form{
+		left:-21px;
+		top:-1365px
+	}
+
+.form-container 	.docs-icon-drawing{
+		left:-21px;
+		top:-1722px
+	}
+
+.form-container 	.docs-icon-drawing-black{
+		left:0;
+		top:-273px
+	}
+
+.form-container 	.docs-icon-script{
+		left:0;
+		top:-1659px
+	}
+
+.form-container 	.docs-icon-insert-script{
+		left:-21px;
+		top:-1470px
+	}
+
+.form-container 	.docs-icon-gadget{
+		left:-21px;
+		top:-756px
+	}
+
+.form-container 	.docs-icon-image{
+		left:0;
+		top:-1323px
+	}
+
+.form-container 	.docs-icon-clipboard{
+		left:0;
+		top:-1827px
+	}
+
+.form-container 	.docs-icon-bold{
+		left:0;
+		top:-1260px
+	}
+
+.form-container 	.docs-icon-italic{
+		left:0;
+		top:-2541px
+	}
+
+.form-container 	.docs-icon-text-color{
+		left:0;
+		top:-1029px
+	}
+
+.form-container 	.docs-icon-align-left{
+		left:-21px;
+		top:-609px
+	}
+
+.form-container 	.docs-icon-align-center{
+		left:0;
+		top:-336px
+	}
+
+.form-container 	.docs-icon-align-right{
+		left:-21px;
+		top:-2541px
+	}
+
+.form-container 	.docs-icon-align-justify{
+		left:0;
+		top:-2961px
+	}
+
+.form-container 	.docs-icon-valign-top{
+		left:0;
+		top:-1449px
+	}
+
+.form-container 	.docs-icon-valign-middle{
+		left:-21px;
+		top:-651px
+	}
+
+.form-container 	.docs-icon-valign-bottom{
+		left:0;
+		top:0
+	}
+
+.form-container 	.docs-icon-list-number{
+		left:-21px;
+		top:-1953px
+	}
+
+.form-container 	.docs-icon-list-bullet{
+		left:0;
+		top:-1092px
+	}
+
+.form-container 	.docs-icon-indent{
+		left:-21px;
+		top:-2352px
+	}
+
+.form-container 	.docs-icon-outdent{
+		left:0;
+		top:-1008px
+	}
+
+.form-container 	.docs-icon-line-spacing{
+		left:-21px;
+		top:-1533px
+	}
+
+.form-container 	.docs-icon-underline{
+		left:0;
+		top:-777px
+	}
+
+.form-container 	.docs-icon-text-bgcolor{
+		left:0;
+		top:-1218px
+	}
+
+.form-container 	.docs-icon-textbox{
+		left:-21px;
+		top:-2688px
+	}
+
+.form-container 	.docs-icon-shapes{
+		left:-21px;
+		top:-2163px
+	}
+
+.form-container 	.docs-icon-line-width{
+		left:0;
+		top:-756px
+	}
+
+.form-container 	.docs-icon-add-trendline{
+		left:0;
+		top:-2289px
+	}
+
+.form-container 	.docs-icon-next{
+		left:-21px;
+		top:-336px
+	}
+
+.form-container 	.docs-icon-previous{
+		left:0;
+		top:-819px
+	}
+
+.form-container 	.docs-icon-no-color{
+		left:-21px;
+		top:-2919px
+	}
+
+.form-container 	.docs-icon-fill-color{
+		left:-21px;
+		top:-903px
+	}
+
+.form-container 	.docs-icon-line-color{
+		left:0;
+		top:-1722px
+	}
+
+.form-container 	.docs-icon-line-type{
+		left:0;
+		top:-2772px
+	}
+
+.form-container 	.docs-icon-table{
+		left:0;
+		top:-357px
+	}
+
+.form-container 	.docs-icon-comment{
+		left:-21px;
+		top:-3066px
+	}
+
+.form-container 	.docs-icon-comment-blank{
+		left:-21px;
+		top:-1764px
+	}
+
+.form-container 	.docs-icon-comment-blank-highlighted{
+		left:-21px;
+		top:-567px
+	}
+
+.form-container 	.docs-icon-chart{
+		left:0;
+		top:-2730px
+	}
+
+.form-container 	.docs-icon-list-number-rtl{
+		left:0;
+		top:-1848px
+	}
+
+.form-container 	.docs-icon-list-bullet-rtl{
+		left:-21px;
+		top:-840px
+	}
+
+.form-container 	.docs-icon-indent-rtl{
+		left:0;
+		top:-231px
+	}
+
+.form-container 	.docs-icon-outdent-rtl{
+		left:0;
+		top:-2205px
+	}
+
+.form-container 	.docs-icon-line-spacing-rtl{
+		left:-21px;
+		top:-2415px
+	}
+
+.form-container 	.docs-icon-text-ltr{
+		left:-21px;
+		top:-1932px
+	}
+
+.form-container 	.docs-icon-text-rtl{
+		left:0;
+		top:-2604px
+	}
+
+.form-container 	.docs-icon-sheet-rtl{
+		left:-21px;
+		top:-1491px
+	}
+
+.form-container 	.docs-icon-share{
+		left:0;
+		top:-378px
+	}
+
+.form-container 	.docs-icon-subscript{
+		left:0;
+		top:-2310px
+	}
+
+.form-container 	.docs-icon-superscript{
+		left:0;
+		top:-84px
+	}
+
+.form-container 	.docs-icon-strikethrough{
+		left:-21px;
+		top:-2751px
+	}
+
+.form-container 	.docs-icon-clear-formatting{
+		left:-21px;
+		top:-798px
+	}
+
+.form-container 	.docs-icon-link{
+		left:0;
+		top:-1386px
+	}
+
+.form-container 	.docs-icon-special-character{
+		left:-21px;
+		top:-2079px
+	}
+
+.form-container 	.docs-icon-close-white{
+		left:0;
+		top:-672px
+	}
+
+.form-container 	.docs-icon-close-small{
+		left:-21px;
+		top:-1974px
+	}
+
+.form-container 	.docs-icon-paint-format{
+		left:0;
+		top:-1617px
+	}
+
+.form-container 	.docs-icon-video{
+		left:0;
+		top:-2793px
+	}
+
+.form-container 	.docs-icon-reload{
+		left:0;
+		top:-2226px
+	}
+
+.form-container 	.docs-icon-reload-rtl{
+		left:0;
+		top:-546px
+	}
+
+.form-container 	.docs-icon-insert-page-break{
+		left:-21px;
+		top:-483px
+	}
+
+.form-container 	.docs-icon-close{
+		left:0;
+		top:-462px
+	}
+
+.form-container 	.docs-icon-check{
+		left:0;
+		top:-105px
+	}
+
+.form-container 	.docs-icon-up{
+		left:-21px;
+		top:-462px
+	}
+
+.form-container 	.docs-icon-down{
+		left:0;
+		top:-1890px
+	}
+
+.form-container 	.docs-icon-add-page{
+		left:0;
+		top:-2016px
+	}
+
+.form-container 	.docs-icon-email{
+		left:-21px;
+		top:-504px
+	}
+
+.form-container 	.docs-icon-insert-equation{
+		left:-21px;
+		top:-63px
+	}
+
+.form-container 	.docs-icon-insert-horizontal-line{
+		left:0;
+		top:-1638px
+	}
+
+.form-container 	.docs-icon-tabstop-center{
+		left:0;
+		top:-399px
+	}
+
+.form-container 	.docs-icon-tabstop-center-bottom{
+		left:0;
+		top:-630px
+	}
+
+.form-container 	.docs-icon-tabstop-left{
+		left:-21px;
+		top:-126px
+	}
+
+.form-container 	.docs-icon-tabstop-right{
+		left:0;
+		top:-2478px
+	}
+
+.form-container 	.docs-icon-border-all{
+		left:0;
+		top:-924px
+	}
+
+.form-container 	.docs-icon-border-right{
+		left:0;
+		top:-2331px
+	}
+
+.form-container 	.docs-icon-border-left{
+		left:-21px;
+		top:-1281px
+	}
+
+.form-container 	.docs-icon-border-top{
+		left:-21px;
+		top:-1617px
+	}
+
+.form-container 	.docs-icon-border-bottom{
+		left:0;
+		top:-2247px
+	}
+
+.form-container 	.docs-icon-border-outside{
+		left:0;
+		top:-63px
+	}
+
+.form-container 	.docs-icon-border-inside{
+		left:0;
+		top:-2499px
+	}
+
+.form-container 	.docs-icon-border-none{
+		left:0;
+		top:-168px
+	}
+
+.form-container 	.docs-icon-border-horizontal{
+		left:-21px;
+		top:-1596px
+	}
+
+.form-container 	.docs-icon-border-vertical{
+		left:0;
+		top:-903px
+	}
+
+.form-container 	.docs-icon-merge{
+		left:0;
+		top:-2646px
+	}
+
+.form-container 	.docs-icon-wrap{
+		left:0;
+		top:-1365px
+	}
+
+.form-container 	.docs-icon-autofilter{
+		left:0;
+		top:-2079px
+	}
+
+.form-container 	.docs-icon-autofilter-filled{
+		left:-21px;
+		top:-945px
+	}
+
+.form-container 	.docs-icon-insert-function{
+		left:-21px;
+		top:-1239px
+	}
+
+.form-container 	.docs-icon-insert-formula{
+		left:0;
+		top:-2352px
+	}
+
+.form-container 	.docs-icon-folder-shared{
+		left:-21px;
+		top:-861px
+	}
+
+.form-container 	.docs-icon-folder-outline{
+		left:0;
+		top:-2436px
+	}
+
+.form-container 	.docs-icon-folder-outline-hover{
+		left:-21px;
+		top:-1323px
+	}
+
+.form-container 	.docs-icon-folder-outline-pressed{
+		left:0;
+		top:-2268px
+	}
+
+.form-container 	.docs-icon-folder-solid{
+		left:0;
+		top:-798px
+	}
+
+.form-container 	.docs-icon-drive{
+		left:0;
+		top:-1974px
+	}
+
+.form-container 	.docs-icon-drive-grey{
+		left:0;
+		top:-1113px
+	}
+
+.form-container 	.docs-icon-drive-grey-hover{
+		left:0;
+		top:-861px
+	}
+
+.form-container 	.docs-icon-drive-grey-pressed{
+		left:-21px;
+		top:-2877px
+	}
+
+.form-container 	.docs-icon-drive-hover{
+		left:-21px;
+		top:-105px
+	}
+
+.form-container 	.docs-icon-drive-pressed{
+		left:0;
+		top:-2037px
+	}
+
+.form-container 	.docs-icon-drive-large{
+		left:0;
+		top:-294px
+	}
+
+.form-container 	.docs-icon-back{
+		left:0;
+		top:-2709px
+	}
+
+.form-container 	.docs-icon-back-rtl{
+		left:-21px;
+		top:-1029px
+	}
+
+.form-container 	.docs-icon-arrow-more{
+		left:-21px;
+		top:-966px
+	}
+
+.form-container 	.docs-icon-arrow-more-rtl{
+		left:0;
+		top:-1155px
+	}
+
+.form-container 	.docs-icon-search-this-document{
+		left:-21px;
+		top:-252px
+	}
+
+.form-container 	.docs-icon-arrow-dropdown{
+		left:-21px;
+		top:-3045px
+	}
+
+.form-container 	.docs-icon-word-art{
+		left:-21px;
+		top:-2709px
+	}
+
+.form-container 	.docs-icon-delete-x{
+		left:0;
+		top:-1743px
+	}
+
+.form-container 	.docs-icon-settings{
+		left:0;
+		top:-2982px
+	}
+
+.form-container 	.docs-icon-drive-large-wrapper{
+		width:42px;
+		height:42px
+	}
+
+.form-container 	.docs-icon-plus{
+		left:-21px;
+		top:-1449px
+	}
+
+.form-container 	.docs-icon-plus-white{
+		left:-21px;
+		top:-2625px
+	}
+
+.form-container 	.docs-icon-alert{
+		left:0;
+		top:-2751px
+	}
+
+.form-container 	.docs-icon-trash{
+		left:-21px;
+		top:-2856px
+	}
+
+.form-container 	.docs-icon-locked{
+		left:0;
+		top:-1911px
+	}
+
+.form-container 	.docs-icon-unlocked{
+		left:-21px;
+		top:-987px
+	}
+
+.form-container 	.docs-icon-add-fonts{
+		left:0;
+		top:-2142px
+	}
+
+.form-container 	.docs-icon-enter-compact{
+		left:0;
+		top:-1785px
+	}
+
+.form-container 	.docs-icon-exit-compact{
+		left:0;
+		top:-2100px
+	}
+
+.form-container 	.docs-icon-mode-edit{
+		left:0;
+		top:-2520px
+	}
+
+.form-container 	.docs-icon-mode-view{
+		left:0;
+		top:-441px
+	}
+
+.form-container 	.docs-icon-chat{
+		left:-21px;
+		top:-1512px
+	}
+
+.form-container 	.docs-icon-star{
+		left:-21px;
+		top:-2289px
+	}
+
+.form-container 	.docs-icon-duplicate{
+		left:-21px;
+		top:-1806px
+	}
+
+.form-container 	.docs-icon-file{
+		left:-21px;
+		top:-2016px
+	}
+
+.form-container 	.docs-icon-opacity{
+		left:-21px;
+		top:-147px
+	}
+
+.form-container 	.docs-icon-label-slant{
+		left:-21px;
+		top:-2037px
+	}
+
+.form-container 	.docs-icon-point-size{
+		left:0;
+		top:-2373px
+	}
+
+.form-container 	.docs-icon-question{
+		left:0;
+		top:-1302px
+	}
+
+.form-container 	.docs-icon-vertical-gridlines{
+		left:0;
+		top:-252px
+	}
+
+.form-container 	.docs-icon-left-axis{
+		left:0;
+		top:-1491px
+	}
+
+.form-container 	.docs-icon-right-axis{
+		left:-21px;
+		top:-2667px
+	}
+
+.form-container 	.docs-icon-left-axis-gridlines{
+		left:0;
+		top:-2163px
+	}
+
+.form-container 	.docs-icon-right-axis-gridlines{
+		left:-21px;
+		top:-441px
+	}
+
+.form-container 	.docs-icon-reset{
+		left:0;
+		top:-525px
+	}
+
+.form-container 	.docs-icon-drag-move{
+		left:0;
+		top:-1239px
+	}
+
+.form-container 	.docs-icon-col-dragger{
+		left:0;
+		top:-1071px
+	}
+
+.form-container 	.docs-icon-chrome-store{
+		left:0;
+		top:-714px
+	}
+
+.form-container 	.docs-icon-fit-area{
+		left:0;
+		top:-147px
+	}
+
+.form-container 	.docs-icon-zoom-out{
+		left:0;
+		top:-1134px
+	}
+
+.form-container 	.docs-icon-zoom-tool{
+		left:-21px;
+		top:-2562px
+	}
+
+.form-container 	.docs-icon-download{
+		left:0;
+		top:-882px
+	}
+
+.form-container 	.docs-icon-fusion-table{
+		left:0;
+		top:-126px
+	}
+
+.form-container 	.docs-icon-spreadsheet-sink{
+		left:-21px;
+		top:-1050px
+	}
+
+.form-container 	.docs-icon-send-responses{
+		left:-21px;
+		top:-2058px
+	}
+
+.form-container 	.docs-icon-liveform{
+		left:-21px;
+		top:-2940px
+	}
+
+.form-container 	.docs-icon-ellipsis{
+		left:-21px;
+		top:-630px
+	}
+
+.form-container 	.docs-icon-html-preview{
+		left:-21px;
+		top:-2310px
+	}
+
+.form-container 	.docs-icon-grid{
+		left:0;
+		top:-1932px
+	}
+
+.form-container 	.docs-icon-add-animation{
+		left:0;
+		top:-1533px
+	}
+
+.form-container 	.docs-icon-playhead{
+		left:0;
+		top:-2814px
+	}
+
+.form-container 	.docs-icon-playhead-rtl{
+		left:-21px;
+		top:-2184px
+	}
+
+.form-container 	.docs-icon-unsupported{
+		left:0;
+		top:-21px
+	}
+
+.form-container 	.docs-icon-calendar{
+		left:0;
+		top:-42px
+	}
+
+.form-container 	.docs-zippy-closed{
+		left:-21px;
+		top:-1407px
+	}
+
+.form-container 	.docs-zippy-open{
+		left:0;
+		top:-1470px
+	}
+
+.form-container 	.docs-icon-bookmark{
+		left:0;
+		top:-3066px
+	}
+
+.form-container 	.docs-icon-heading{
+		left:0;
+		top:-567px
+	}
+
+.form-container 	.docs-icon-file-blue{
+		left:0;
+		top:-3045px
+	}
+
+.form-container 	.docs-icon-web-result{
+		left:-21px;
+		top:-2898px
+	}
+
+.form-container 	.docs-icon-mic{
+		left:0;
+		top:-2667px
+	}
+
+.form-container 	.docs-icon-paragraph{
+		left:0;
+		top:-3024px
+	}
+
+.form-container 	.docs-icon-bookmark-black{
+		left:0;
+		top:-840px
+	}
+
+.form-container 	.docs-icon-web-result-blue{
+		left:-21px;
+		top:-42px
+	}
+
+.form-container 	.docs-icon-popout{
+		left:0;
+		top:-420px
+	}
+
+.form-container 	.docs-icon-checkbox-type{
+		left:-21px;
+		top:-1428px
+	}
+
+.form-container 	.docs-icon-dropdown-type{
+		left:-21px;
+		top:-2478px
+	}
+
+.form-container 	.docs-icon-grid-type{
+		left:-21px;
+		top:-1995px
+	}
+
+.form-container 	.docs-icon-image-type{
+		left:0;
+		top:-1575px
+	}
+
+.form-container 	.docs-icon-radio-type{
+		left:0;
+		top:-2121px
+	}
+
+.form-container 	.docs-icon-scale-type{
+		left:0;
+		top:-2058px
+	}
+
+.form-container 	.docs-icon-text-type{
+		left:-21px;
+		top:-2226px
+	}
+
+.form-container 	.docs-icon-time-type{
+		left:-21px;
+		top:-420px
+	}
+
+.form-container 	.docs-icon-insert-text-block{
+		left:0;
+		top:-735px
+	}
+
+.form-container 	.docs-icon-accepting-responses-on{
+		left:-21px;
+		top:-882px
+	}
+
+.form-container 	.docs-icon-accepting-responses-off{
+		left:-21px;
+		top:-84px
+	}
+
+.form-container 	.docs-icon-decimal-increase{
+		left:-21px;
+		top:-546px
+	}
+
+.form-container 	.docs-icon-decimal-decrease{
+		left:0;
+		top:-1764px
+	}
+
+.form-container 	.docs-icon-page-left{
+		left:0;
+		top:-1554px
+	}
+
+.form-container 	.docs-icon-settings-white{
+		left:-21px;
+		top:-1218px
+	}
+
+}
+
+.form-container .docs-a11y-ariascreenreader-speakable{
+	position:absolute;
+	left:-10000px
+}
+
+.form-container .goog-inline-block{
+	position:relative;
+	display:-moz-inline-box;
+	display:inline-block
+}
+
+.form-container * html .goog-inline-block{
+	display:inline
+}
+
+.form-container *:first-child+html .goog-inline-block{
+	display:inline
+}
+
+.form-container .jfk-progressStatus{
+	color:#202020
+}
+
+.form-container .jfk-progressText{
+	color:#999
+}
+
+.form-container .jfk-progressStatus,.jfk-progressText{
+	line-height:18px
+}
+
+.form-container .jfk-progressBar-blocking .progress-bar-horizontal,.jfk-progressBar-nonBlocking .progress-bar-horizontal{
+	border:1px solid #999;
+	padding:1px;
+	width:320px
+}
+
+.form-container .jfk-progressBar-blocking .progress-bar-thumb{
+	background-color:#6188f5;
+	height:5px
+}
+
+.form-container .jfk-progressBar-nonBlocking .progress-bar-thumb{
+	background-color:#ccc;
+	height:5px
+}
+
+.form-container .jfk-progressBar-blocking.jfk-progressBar-tall .progress-bar-thumb,.jfk-progressBar-nonBlocking.jfk-progressBar-tall .progress-bar-thumb{
+	height:8px
+}
+
+.form-container .jfk-progressBar-blocking .progress-bar-thumb{
+	-webkit-animation:jfk-progressBar-bg 0.8s linear 0s infinite;
+	-moz-animation:jfk-progressBar-bg 0.8s linear 0s infinite;
+	-o-animation:jfk-progressBar-bg 0.8s linear 0s infinite;
+	animation:jfk-progressBar-bg 0.8s linear 0s infinite;
+	background-position:0 0;
+	background-repeat:repeat-x;
+	background-size:16px 8px;
+	background-color:#6188f5;
+	background-image:-webkit-linear-gradient(315deg,transparent,transparent 33%,rgba(0,0,0,.12) 33%,rgba(0,0,0,.12) 66%,transparent 66%,transparent);
+	background-image:-moz-linear-gradient(315deg,transparent,transparent 33%,rgba(0,0,0,.12) 33%,rgba(0,0,0,.12) 66%,transparent 66%,transparent);
+	background-image:-ms-linear-gradient(315deg,transparent,transparent 33%,rgba(0,0,0,.12) 33%,rgba(0,0,0,.12) 66%,transparent 66%,transparent);
+	background-image:-o-linear-gradient(315deg,transparent,transparent 33%,rgba(0,0,0,.12) 33%,rgba(0,0,0,.12) 66%,transparent 66%,transparent);
+	background-image:linear-gradient(315deg,transparent,transparent 33%,rgba(0,0,0,.12) 33%,rgba(0,0,0,.12) 66%,transparent 66%,transparent)
+}
+
+.form-container .jfk-progressBar-blocking.jfk-progressBar-tall .progress-bar-thumb{
+	-webkit-animation:jfk-progressBar-bg-tall 0.8s linear 0s infinite;
+	-moz-animation:jfk-progressBar-bg-tall 0.8s linear 0s infinite;
+	-o-animation:jfk-progressBar-bg-tall 0.8s linear 0s infinite;
+	animation:jfk-progressBar-bg-tall 0.8s linear 0s infinite;
+	background-size:20px 10px
+}
+
+.form-container @-webkit-keyframes jfk-progressBar-bg{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-16px 0
+	}
+
+}
+
+.form-container @-moz-keyframes jfk-progressBar-bg{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-16px 0
+	}
+
+}
+
+.form-container @-o-keyframes jfk-progressBar-bg{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-16px 0
+	}
+
+}
+
+.form-container @keyframes jfk-progressBar-bg{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-16px 0
+	}
+
+}
+
+.form-container @-webkit-keyframes jfk-progressBar-bg-tall{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-20px 0
+	}
+
+}
+
+.form-container @-moz-keyframes jfk-progressBar-bg-tall{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-20px 0
+	}
+
+}
+
+.form-container @-o-keyframes jfk-progressBar-bg-tall{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-20px 0
+	}
+
+}
+
+.form-container @keyframes jfk-progressBar-bg-tall{
+.form-container 	0%{
+		background-position:0 0
+	}
+
+.form-container 	100%{
+		background-position:-20px 0
+	}
+
+}
+
+.form-container .jfk-progressbar .progress-bar-horizontal,.jfk-progressbar .progress-bar-vertical{
+	border-color:#999
+}
+
+.form-container .jfk-progressbar .progress-bar-thumb{
+	background-color:#ccc
+}
+
+.form-container .ss-logo-link{
+	display:block
+}
+
+.form-container .ss-logo{
+	border:none;
+	height:23px;
+	width:105px
+}
+
+.form-container .g{
+	color:#666
+}
+
+.form-container .ss-form-desc{
+	font:inherit;
+	width:99%;
+	margin:0 0 1em
+}
+
+.form-container .ss-powered-by{
+	display:block;
+	clear:left;
+	color:#666;
+	margin:1em 0.2em 0.2em
+}
+
+.form-container .ss-powered-by a:link,.ss-powered-by a:visited{
+	color:#666
+}
+
+.form-container .ss-required-asterisk{
+	color:#c43b1d
+}
+
+.form-container .ss-no-ignore-whitespace{
+	white-space:pre-wrap;
+	word-wrap:break-word
+}
+
+.form-container .ss-confirmation-header{
+	font-size:140%;
+	padding-bottom:1em
+}
+
+.form-container .ss-abuse-header{
+	background:#fff68f;
+	line-height:1.3em;
+	margin:0 auto 1em;
+	padding:0.5em;
+	width:97%
+}
+
+.form-container .form-error-arg{
+	font-weight:bold
+}
+
+.form-container h1{
+	font-size:1.8em;
+	padding:0
+}
+
+.form-container hr{
+	border:0;
+	height:1px;
+	background-color:#ddd
+}
+
+.form-container table{
+	border-collapse:collapse
+}
+
+.form-container textarea{
+	font:normal 13px arial,sans-serif
+}
+
+.form-container br{
+	display:block!important
+}
+
+.form-container .aria-only-help{
+	font-size:0;
+	left:-9999px;
+	position:absolute
+}
+
+.form-container .ss-printable-hint{
+	display:none
+}
+
+.form-container .goog-date-picker,.goog-date-picker th,.goog-date-picker td{
+	font:13px Arial,sans-serif
+}
+
+.form-container .goog-date-picker{
+	-moz-user-focus:normal;
+	-moz-user-select:none;
+	position:relative;
+	border:1px solid #000;
+	float:left;
+	padding:2px;
+	color:#000;
+	background:#c3d9ff;
+	cursor:default
+}
+
+.form-container .goog-date-picker th{
+	text-align:center
+}
+
+.form-container .goog-date-picker td{
+	text-align:center;
+	vertical-align:middle;
+	padding:1px 3px
+}
+
+.form-container .goog-date-picker-menu{
+	position:absolute;
+	background:threedface;
+	border:1px solid gray;
+	-moz-user-focus:normal;
+	z-index:1;
+	outline:none
+}
+
+.form-container .goog-date-picker-menu ul{
+	list-style:none;
+	margin:0px;
+	padding:0px
+}
+
+.form-container .goog-date-picker-menu ul li{
+	cursor:default
+}
+
+.form-container .goog-date-picker-menu-selected{
+	background:#ccf
+}
+
+.form-container .goog-date-picker th{
+	font-size:.9em
+}
+
+.form-container .goog-date-picker td div{
+	float:left
+}
+
+.form-container .goog-date-picker button{
+	padding:0px;
+	margin:1px 0;
+	border:0;
+	color:#20c;
+	font-weight:bold;
+	background:transparent
+}
+
+.form-container .goog-date-picker-date{
+	background:#fff
+}
+
+.form-container .goog-date-picker-week,.goog-date-picker-wday{
+	padding:1px 3px;
+	border:0;
+	border-color:#a2bbdd;
+	border-style:solid
+}
+
+.form-container .goog-date-picker-week{
+	border-right-width:1px
+}
+
+.form-container .goog-date-picker-wday{
+	border-bottom-width:1px
+}
+
+.form-container .goog-date-picker-head td{
+	text-align:center
+}
+
+.form-container td.goog-date-picker-today-cont{
+	text-align:center
+}
+
+.form-container td.goog-date-picker-none-cont{
+	text-align:center
+}
+
+.form-container .goog-date-picker-month{
+	width:11ex
+}
+
+.form-container .goog-date-picker-year{
+	width:6ex
+}
+
+.form-container .goog-date-picker table{
+	border-collapse:collapse
+}
+
+.form-container .goog-date-picker-other-month{
+	color:#888
+}
+
+.form-container .goog-date-picker-wkend-start,.goog-date-picker-wkend-end{
+	background:#eee
+}
+
+.form-container td.goog-date-picker-selected{
+	background:#c3d9ff
+}
+
+.form-container .goog-date-picker-today{
+	background:#9ab;
+	font-weight:bold!important;
+	border-color:#246 #9bd #9bd #246;
+	color:#fff
+}
+
+.form-container .ss-date input,.ss-datetime input,.ss-time input{
+	font:inherit
+}
+
+.form-container .ss-q-time.goog-inline-block{
+	padding-left:1.5em
+}
+
+.form-container .ss-hidden-button{
+	border:none;
+	display:none;
+	height:0;
+	padding:0;
+	width:0
+}
+
+.form-container .ss-picker-button-container{
+	background-color:#f5f5f5;
+	background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image:-moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image:-ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image:-o-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image:linear-gradient(top,#f5f5f5,#f1f1f1);
+	height:100%;
+	margin-left:1ex
+}
+
+.form-container .ss-picker-container{
+	left:2ex;
+	position:absolute;
+	z-index:2
+}
+
+.form-container .ss-calendar-button{
+	border-left:1px solid #dcdcdc;
+	padding:5px 4px 4px 4px;
+	z-index:1
+}
+
+.form-container .ss-datetime-box{
+	border:1px solid #dcdcdc;
+	height:32px;
+	margin-right:0.6em;
+	min-height:30px;
+	padding-left:3px;
+	vertical-align:middle
+}
+
+.form-container .ss-datetime-box select{
+	margin:4px 3px;
+	vertical-align:middle
+}
+
+.form-container .ss-datetime-box-spacer{
+	height:32px;
+	vertical-align:middle
+}
+
+.form-container .ss-grid{
+	overflow-x:auto
+}
+
+.form-container .ss-gridnumbers{
+	text-align:center;
+	border-bottom:1px solid #d3d8d3
+}
+
+.form-container .ss-gridnumber{
+	display:block;
+	padding:0.5em 0 .5em
+}
+
+.form-container .ss-gridrow{
+	text-align:center;
+	color:#666;
+	border-bottom:1px solid #d3d8d3;
+	padding:.5em .25em
+}
+
+.form-container .ss-grid-row-even{
+	background-color:#fff
+}
+
+.form-container .ss-grid-row-odd{
+	background-color:#f2f2f2
+}
+
+.form-container .ss-gridrow-leftlabel{
+	min-width:100px;
+	max-width:200px;
+	padding-left:15px;
+	text-align:left
+}
+
+.form-container .ss-grideditor-columns input{
+	line-height:150%
+}
+
+.form-container .ss-grideditor-editor .ss-magiclist-ul span.ss-header{
+	font-weight:bold;
+	padding-right:1em
+}
+
+.form-container .ss-grid-separator{
+	border:1px solid #e5e5e5
+}
+
+.form-container .ss-scalenumbers{
+	text-align:center
+}
+
+.form-container .ss-scalenumber{
+	display:block;
+	padding:0.5em 0 .5em
+}
+
+.form-container .ss-scalerow{
+	text-align:center;
+	color:#666;
+	border:1px solid #d3d8d3;
+	border-left:0;
+	border-right:0;
+	padding:.5em .25em
+}
+
+.form-container td.ss-leftlabel{
+	text-align:right;
+	padding-left:0
+}
+
+.form-container td.ss-rightlabel{
+	text-align:left;
+	padding-right:0
+}
+
+.form-container .ss-form-entry{
+	margin-bottom:1.5em
+}
+
+.form-container .ss-form-entry input{
+	vertical-align:middle;
+	margin-left:0;
+	margin-top:0
+}
+
+.form-container .ss-form-entry select{
+	max-width:100%
+}
+
+.form-container .ss-q-title{
+	display:block;
+	font-weight:bold
+}
+
+.form-container .ss-q-help{
+	display:block;
+	margin:.1em 0 .25em 0
+}
+
+.form-container .ss-secondary-text{
+	color:#666
+}
+
+.form-container .ss-textarea{
+	max-width:99%
+}
+
+.form-container .ss-q-long{
+	resize:vertical;
+	width:70%
+}
+
+.form-container .ss-choices{
+	list-style:none;
+	margin:.5em 0 0 0;
+	padding:0
+}
+
+.form-container .ss-choice-item{
+	margin:0;
+	line-height:1.3em;
+	padding-bottom:.5em
+}
+
+.form-container .ss-required-asterisk{
+	color:#c43b1d
+}
+
+.form-container .ss-section-title{
+	background-color:#eee;
+	padding:0.4em;
+	margin:2em -0.4em 0
+}
+
+.form-container .ss-section-description{
+	margin-top:0.5em
+}
+
+.form-container .ss-page-title{
+	margin:0;
+	padding:0
+}
+
+.form-container .ss-formwidget-container:focus{
+	outline:none
+}
+
+.form-container .ss-item{
+	margin:12px 0
+}
+
+.form-container .ss-image,.ss-video,.ss-embeddable-object-container{
+	max-width:100%;
+	position:relative
+}
+
+.form-container .ss-video{
+	border:none
+}
+
+.form-container .ss-video-badge{
+	left:0;
+	position:absolute
+}
+
+.form-container .ss-video:focus,.ss-image:focus{
+	outline:none
+}
+
+.form-container .embeddable-object-menu .jfk-button-collapse-left{
+	margin-right:0
+}
+
+.form-container .ss-edit-link,.ss-edit-link:active,.ss-edit-link:visited,.ss-edit-link:hover,.ss-edit-link:link{
+	background:url(//www.gstatic.com/docs/spreadsheets/forms/edit_dark.png) 7px 8px no-repeat #1f1f1d;
+	border:1px solid #fff;
+	color:#fff;
+	float:right;
+	font:normal 13px arial,sans-serif;
+	font-weight:bold;
+	padding:7px 7px 7px 27px;
+	text-decoration:none
+}
+
+.form-container .disclaimer .ss-terms a:link{
+	color:#15c;
+	text-decoration:none
+}
+
+.form-container .disclaimer .ss-terms a:hover{
+	text-decoration:underline
+}
+
+.form-container .disclaimer .ss-terms a:active{
+	color:#d14836
+}
+
+.form-container .disclaimer .ss-terms a:visited{
+	color:#61c
+}
+
+.form-container .disclaimer{
+	color:#777;
+	font:normal 11px arial,sans-serif;
+	margin-top:11px
+}
+
+.form-container .disclaimer-separator{
+	border-top:1px solid #ebebeb
+}
+
+.form-container .disclaimer .ss-logo-link{
+	color:#777;
+	text-decoration:none
+}
+
+.form-container .powered-by-logo{
+	display:inline-block;
+	vertical-align:bottom
+}
+
+.form-container .powered-by-text{
+	line-height:16px
+}
+
+.form-container .ss-terms{
+	display:inline-block;
+	line-height:20px;
+	width:80%;
+	text-align:center
+}
+
+.form-container .ss-submit-message{
+	font:normal 13px arial,sans-serif;
+	margin-bottom:20px
+}
+
+.form-container .error,.required{
+	border:2px solid #c43b1d
+}
+
+.form-container .required-message,.error-message{
+	color:#c43b1d;
+	display:none;
+	font-size:13px
+}
+
+.form-container .required~.required-message,.error~.error-message{
+	display:block
+}
+
+.form-container ul.ss-choices.required{
+	margin-left:-3px;
+	margin-top:-3px;
+	padding-left:4px;
+	padding-top:4px
+}
+
+.form-container .docs-offscreen{
+	position:absolute;
+	left:-10000px;
+	top:-10000px
+}
+
+.form-container .errorbox-bad{
+	border:2px solid #c43b1d;
+	background-color:#ffe6cc;
+	padding:2px
+}
+
+.form-container .errorheader{
+	color:#c43b1d
+}
+
+.form-container .jfk-progressBar-nonBlocking .progress-bar-horizontal{
+	background:#fff;
+	border:1px solid #999;
+	height:10px;
+	padding:1px;
+	width:150px
+}
+
+.form-container .jfk-progressBar-nonBlocking .progress-bar-thumb{
+	height:10px;
+	width:150px
+}
+
+.form-container #navigation-table{
+	width:100%
+}
+
+.form-container #navigation-buttons{
+	margin-bottom:0
+}
+
+.form-container #progress-container{
+	text-align:right
+}
+
+.form-container .ss-form-container{
+	background-color:#fff;
+	border:1px solid #ccc;
+	margin:0.5em auto 0;
+	padding:1em;
+	width:45em
+}
+
+.form-container .ss-editing-response{
+	border:1px solid #ccc;
+	margin:1em auto;
+	padding:0 1em;
+	width:43em
+}
+
+.form-container .ss-confirmation-banner,.ss-editing-response{
+	background-color:#ffff87
+}
+
+.form-container input#emailReceipt{
+	margin-left:0;
+	margin-top:0;
+	vertical-align:middle
+}
+
+.form-container .no-chrome .powered-by-logo,.no-chrome .ss-legal,.no-chrome .ss-edit-link{
+	display:none
+}
+
+.form-container .ss-prepopulate-input,.ss-submit-url-input{
+	width:100%
+}
